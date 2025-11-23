@@ -2,6 +2,7 @@ import { ControlHeader } from "@/components/ControlHeader";
 import { MetricsGrid } from "@/components/MetricsGrid";
 import { SectionOverview } from "@/components/SectionOverview";
 import { DecisionPanel } from "@/components/DecisionPanel";
+import { IndiaMapModal } from '@/components/IndiaMapModal'
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
           <DecisionPanel />
         </div>
       </main>
+       <IndiaMapModal/> 
     </div>
   );
 };
